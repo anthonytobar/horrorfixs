@@ -1,0 +1,150 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #ffffff;
+	display: block;
+}
+
+.bigdiv {
+	height: 85%;
+	width: 100%;
+	display: flex;
+}
+
+.meddiv{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.meddiv2{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.col {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.col2 {
+		height: 100%;
+		width: 100%;
+		display: block;
+}
+	
+.row2 {
+	height: 15%;
+	width: 100%;
+	display: flex;
+}
+
+.rowbox{
+	height: 100%;
+	width: 50%;
+	display: felx;
+}
+
+.box {
+	height: 25%;
+	width: 100%;
+}
+
+.restrict-img-size {
+	max-height: 99%;
+	max-width: 99%;
+}
+
+.center-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contain-image {
+	height: 75%;
+	width: 75%;
+}
+
+.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.center-horizontal {
+	justify-content: center;
+}
+
+.center-vertical {
+	align-items: center;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.green {
+	background-color: #7CFC00;
+}
+
+
+.grey{
+	background-color: #808080;
+
+}
+
+.red{
+	background-color: #ff0000;
+}
+
+@media only screen and (max-width: 600px){
+	body{
+		display:block;
+	}
+			
+	.bigdiv {
+		height: 85%;
+		width: 100%;
+		display: block;
+	}
+
+	.meddiv{
+		height: 50%;
+		width: 100%;
+		display: flex;
+	}
+
+	.meddiv2{
+		height: 50%;
+		width: 100%;
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	body{
+		display:block;
+	}
+		
+	.bigdiv {
+		height: 85%;
+		width: 100%;
+		display: block;
+	}
+
+	.meddiv{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+
+	.meddiv2{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+}
